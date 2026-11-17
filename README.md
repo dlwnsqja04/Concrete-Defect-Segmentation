@@ -129,7 +129,7 @@ python3 evaluate.py test --data work/dataset --weights best.pt --output work/eva
 python3 train.py --data work/dataset/data.yaml --weights yolov8s-seg.pt --output work/train
 ```
 
-## 부록. 주석 기준서 수정본
+## 결함 표시 기준
 
 | 클래스 | 포함 및 경계 기준 | 제외 기준 |
 | --- | --- | --- |
