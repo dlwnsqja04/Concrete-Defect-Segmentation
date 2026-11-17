@@ -1,0 +1,27 @@
+{
+  "test_images": 40,
+  "mask_mAP50": 0.657249494780996,
+  "mask_mAP50_95": 0.28606800143232614,
+  "classes": {
+    "crack": {
+      "mask_AP50": 0.2193477845254161,
+      "mask_AP50_95": 0.09605427912730544
+    },
+    "efflorescence": {
+      "mask_AP50": 0.7574006998175722,
+      "mask_AP50_95": 0.3333191521736089
+    },
+    "spall_detach": {
+      "mask_AP50": 0.995,
+      "mask_AP50_95": 0.4288305729960641
+    }
+  },
+  "macro_f1": 0.772053872053872,
+  "thresholds_sha256": "b6cfdfafeabe2214fc445915284cad468cc9066352918d3942fb626f04890c59",
+  "test_sha256": "de4613fdf92e455f9716098ac4960fed6d85a35b2efc4c6ae438b7ec808c3e29",
+  "platform": "macOS-26.6.2-arm64-arm-64bit",
+  "python": "3.12.14",
+  "torch": "2.15.0",
+  "ultralytics": "8.4.189",
+  "device": "mps"
+}

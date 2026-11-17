@@ -1,0 +1,63 @@
+{
+  "selection_split": "val",
+  "tie_break": "lower threshold",
+  "grid": [
+    0.001,
+    0.004,
+    0.01,
+    0.02,
+    0.06,
+    0.1,
+    0.2,
+    0.3,
+    0.4,
+    0.5,
+    0.6,
+    0.7,
+    0.8,
+    0.9,
+    0.95
+  ],
+  "validation_images": 40,
+  "config": {
+    "weights_sha256": "b13517c1cfde78d1c5a3283ab5c0261577ab38bab872a262cb8c203c95171ff5",
+    "val_sha256": "89e5a8779975e5393e908731db3ec029243457acb3e9a343f45012ed48efaecf",
+    "imgsz": 640,
+    "device": "mps",
+    "conf_floor": 0.0009,
+    "nms_iou": 0.7,
+    "max_det": 300
+  },
+  "classes": {
+    "crack": {
+      "threshold": 0.06,
+      "TP": 8,
+      "FP": 1,
+      "FN": 2,
+      "TN": 29,
+      "precision": 0.8888888888888888,
+      "recall": 0.8,
+      "f1": 0.8421052631578947
+    },
+    "efflorescence": {
+      "threshold": 0.06,
+      "TP": 12,
+      "FP": 1,
+      "FN": 5,
+      "TN": 22,
+      "precision": 0.9230769230769231,
+      "recall": 0.7058823529411765,
+      "f1": 0.8
+    },
+    "spall_detach": {
+      "threshold": 0.6,
+      "TP": 12,
+      "FP": 2,
+      "FN": 1,
+      "TN": 25,
+      "precision": 0.8571428571428571,
+      "recall": 0.9230769230769231,
+      "f1": 0.8888888888888888
+    }
+  }
+}
